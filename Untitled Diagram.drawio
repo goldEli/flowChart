@@ -1,1 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2021-03-08T02:38:51.093Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" version="13.11.0" etag="riZ2p-g-XYDJCYxPeV9t" type="github"><diagram id="4rBO1aebgEreCd3NVisf">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-08T09:46:27.930Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="MRQE37cUknqbqyfor0tn" version="13.11.0" type="github">
+  <diagram id="4rBO1aebgEreCd3NVisf" name="Page-1">
+    <mxGraphModel dx="1418" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WDaPH2LPpdfvN1K8PmEe-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="WDaPH2LPpdfvN1K8PmEe-1" target="WDaPH2LPpdfvN1K8PmEe-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="60" />
+              <mxPoint x="320" y="60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WDaPH2LPpdfvN1K8PmEe-7" value="data 更新 view" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WDaPH2LPpdfvN1K8PmEe-3">
+          <mxGeometry x="0.0714" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WDaPH2LPpdfvN1K8PmEe-1" value="data" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="140" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WDaPH2LPpdfvN1K8PmEe-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WDaPH2LPpdfvN1K8PmEe-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WDaPH2LPpdfvN1K8PmEe-6" value="view 更新 data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WDaPH2LPpdfvN1K8PmEe-5">
+          <mxGeometry x="-0.0786" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WDaPH2LPpdfvN1K8PmEe-2" value="view" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="500" y="40" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WDaPH2LPpdfvN1K8PmEe-11" value="set" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="WDaPH2LPpdfvN1K8PmEe-9" target="WDaPH2LPpdfvN1K8PmEe-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WDaPH2LPpdfvN1K8PmEe-9" value="defineproperty" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="140" y="250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WDaPH2LPpdfvN1K8PmEe-10" value="执行更新view方法" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="500" y="250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WDaPH2LPpdfvN1K8PmEe-13" value="input onChange" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WDaPH2LPpdfvN1K8PmEe-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WDaPH2LPpdfvN1K8PmEe-12" value="监听view改变" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="500" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
