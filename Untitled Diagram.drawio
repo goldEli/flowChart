@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-08T09:59:09.818Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="OWBjw9MO9Zip5IUstF4P" version="13.11.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-08T10:01:20.362Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="g-3TbcEjQT7IzFB6fMBX" version="13.11.0" type="github">
   <diagram id="4rBO1aebgEreCd3NVisf" name="Page-1">
     <mxGraphModel dx="1418" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -85,6 +85,19 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="WDaPH2LPpdfvN1K8PmEe-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WDaPH2LPpdfvN1K8PmEe-18" target="WDaPH2LPpdfvN1K8PmEe-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WDaPH2LPpdfvN1K8PmEe-36" value="add watcher" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WDaPH2LPpdfvN1K8PmEe-35">
+          <mxGeometry x="-0.04" y="1" relative="1" as="geometry">
+            <mxPoint x="34" y="-29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WDaPH2LPpdfvN1K8PmEe-37" value="set" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WDaPH2LPpdfvN1K8PmEe-35">
+          <mxGeometry x="-0.76" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="WDaPH2LPpdfvN1K8PmEe-18" value="proxy" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="190" y="610" width="80" height="80" as="geometry" />
         </mxCell>
@@ -93,11 +106,13 @@
             <mxPoint x="390" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WDaPH2LPpdfvN1K8PmEe-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="WDaPH2LPpdfvN1K8PmEe-19" target="WDaPH2LPpdfvN1K8PmEe-16">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="WDaPH2LPpdfvN1K8PmEe-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WDaPH2LPpdfvN1K8PmEe-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="650" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="WDaPH2LPpdfvN1K8PmEe-25" value="add watcher" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WDaPH2LPpdfvN1K8PmEe-24">
-          <mxGeometry x="0.2718" y="2" relative="1" as="geometry">
+        <mxCell id="WDaPH2LPpdfvN1K8PmEe-38" value="method for updating view" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="WDaPH2LPpdfvN1K8PmEe-34">
+          <mxGeometry x="0.4667" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
